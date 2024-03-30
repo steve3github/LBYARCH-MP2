@@ -1,0 +1,2 @@
+^C:\USERS\BADAY\SOURCE\REPOS\X86_64_HELLO\ASMFUNC.ASM
+c:\nasm\nasm -f win64 asmfunc.asm
