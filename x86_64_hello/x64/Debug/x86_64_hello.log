@@ -8,6 +8,9 @@ C:\Users\baday\source\repos\x86_64_hello\cfunc.h(11,10): warning C4477: 'scanf_s
   C:\Users\baday\source\repos\x86_64_hello\cfunc.h(11,10):
   consider using '%I64d' in the format string
   
+C:\Users\baday\source\repos\x86_64_hello\cfunc.h(16,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.c')
+  
 C:\Users\baday\source\repos\x86_64_hello\main.c(17,10): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type '__int64 *'
   C:\Users\baday\source\repos\x86_64_hello\main.c(17,10):
   consider using '%lld' in the format string
@@ -16,4 +19,5 @@ C:\Users\baday\source\repos\x86_64_hello\main.c(17,10): warning C4477: 'scanf_s'
   C:\Users\baday\source\repos\x86_64_hello\main.c(17,10):
   consider using '%I64d' in the format string
   
+C:\Users\baday\source\repos\x86_64_hello\main.c(21,12): warning C4244: '=': conversion from '__int64' to 'float', possible loss of data
   x86_64_hello.vcxproj -> C:\Users\baday\source\repos\x86_64_hello\x64\Debug\x86_64_hello.exe

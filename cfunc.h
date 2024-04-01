@@ -13,7 +13,7 @@ void cKernel(float* arr, long long int size, float* values) {
 	arr = (float*)malloc(size * sizeof(float));
 	ctr = 0;
 	for (i = 0; i < size; i++) {
-		arr[i] = 1;
+		arr[i] = i;
 	}
 
 	for (i = 0; i < 10; i++) {

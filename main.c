@@ -18,7 +18,7 @@ int main(void) {
 	arr = (float*)malloc(size * sizeof(float));
 	jamal = (float*)malloc(10 * sizeof(float));
 	for (i = 0; i < size; i++) {
-		arr[i] = 1;
+		arr[i] = i;
 	}
 	for (i = 0; i < 10; i++) {
 		jamal[i] = 0.0;
