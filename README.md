@@ -5,7 +5,7 @@
 
 ![image](https://github.com/steve3github/LBYARCH-MP2/assets/116737560/201d06fb-adf8-48e6-ab62-768626489b5b)
 
-- Across all three vector sizes, the x86-64 kernel is faster by a small margin. While there are some test cases where the C kernel is faster, but in most cases, x86-64 kernel is faster. Given that the function is in O(n^2) time, the difference becomes greater the larger the vector size.
+- Across all three vector sizes, the x86-64 kernel is faster by a small margin. While there are some test cases where the C kernel is faster, in most cases, x86-64 kernel is faster. Given that the function's time complexity is O(n^2), the difference becomes greater the larger the vector size.
 
 2) C correctness check screenshots
 ![image](https://github.com/steve3github/LMYARCH-MP2/assets/116737560/11ec2169-f8e0-4fbb-a7f8-0e76b7cfefef)
